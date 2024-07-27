@@ -1,5 +1,5 @@
 # Contexto
-Este trabalho tem como objetivo servir como aprendizado para a matéria de Desenvolvimento Web presente em meu curso de graduação,
+Este trabalho tem como objetivo servir de aprendizado para a matéria de Desenvolvimento Web presente em meu curso de graduação,
 a escolha da linguagem ficou a critério dos alunos e então optei por utilizar o JavaScript junto ao NodeJS e o React por pura curiosidade
 e vontade de aprender sobre esse ecossistema.
 
