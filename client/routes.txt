@@ -1,0 +1,12 @@
+          <Route path="/" element={<Home/>}/>
+          <Route path="/login" element={<Login/>}/>
+          <Route path="/users" element={<Users />} />
+          <Route path="/dependents" element={<Dependents />} />
+          <Route path="/add" element={<Add />} />
+          <Route path="/update" element={<Update />} />
+          <Route path="/homecommon" element={<HomeCommon />} />
+          <Route path="/homevip" element={<HomeVip />} /> 
+          <Route path="/commons" element={<Commons />} />
+          <Route path="/mydata" element={<MyData />} />
+          <Route path="/delete" element={<Delete />} />
+          <Route path="/users2" element={<Users2 />} />

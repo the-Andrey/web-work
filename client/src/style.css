@@ -1,0 +1,263 @@
+Footer {
+  width: 100%;
+  position: fixed; /* ou 'absolute', se você preferir */
+  bottom: 0;
+  left: 0;
+  background-color: rgb(75, 10, 98); /* cor de fundo do footer */
+  padding: 1rem; /* espaçamento interno */
+  text-align: center; /* centralizar o texto */
+  color: white;
+}
+
+Header {
+  width: 100%;
+  position: fixed; /* ou 'absolute', se você preferir */
+  top: 0;
+  left: 0;
+  background-color: rgb(75, 10, 98); /* cor de fundo do footer */
+}
+
+Header .navbar {
+  justify-content: space-between; /* Alinhar o logotipo e os links de navegação nas extremidades opostas */
+  align-items: center; /* Alinhar verticalmente */
+  display: flex;
+  padding: 0rem 1rem;
+}
+
+.navbar button {
+  color: white;
+}
+
+.navbar h1{
+  color: white;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App{
+  height: 100vh;
+  padding: 1rem 2rem 2rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App h1{
+  padding: 0rem 0rem 0rem 1rem;
+}
+
+.users{
+  width: 25rem;
+  border-radius: 0.5rem;
+  padding: 5px 5px 10px 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.user{
+  border: 1px solid;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  width: 20rem;
+  background-color: rgb(75, 10, 98);
+  border-width: 0.05rem;
+  border-color: rgb(0, 0, 0);
+  border-radius: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.5rem;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.App button{
+  border-radius: 0.5rem;
+  padding: 0.05rem 0.5rem 0.05rem 0.5rem;
+  width: auto;
+  height: 1.5rem;
+  margin-top: 0.25rem;
+  border-width: 0.05rem;
+  border-color: rgb(75, 10, 98);
+  background-color: rgb(75, 10, 98);
+  color: white;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: white;
+  color: rgb(75, 10, 98);
+  font-weight: bold;
+}
+
+.exit-link a{
+  color: #007bff;
+  font-weight: bold;
+}
+
+input{
+  width: auto;
+  margin-bottom: 0.5rem;
+}
+
+.login-conteiner{
+  display: flex;
+  flex-direction: column;
+  border: 1rem solid;
+  border-width: 0.2rem;
+  border-color: rgb(75, 10, 98);
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  border-radius: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-conteiner h1{
+  padding: 0rem 0rem 0rem 0rem;
+}
+
+.homevip {
+  border: 1rem solid;
+  border-color: rgb(75, 10, 98);
+  border-width: 0.3rem;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.homevip h1{
+  justify-content: center;
+}
+
+.homevip button{
+    border-radius: 0.5rem;
+    padding: 0.05rem 0.5rem 0.05rem 0.5rem;
+    width: auto;
+    height: 1.5rem;
+    margin-top: 0.25rem;
+    border-width: 0.05rem;
+    border-color: rgb(75, 10, 98);
+    background-color: rgb(75, 10, 98);
+    color: white;
+    cursor: pointer;
+}
+
+.homecommon{
+  border: 1rem solid;
+  border-color: rgb(75, 10, 98);
+  border-width: 0.3rem;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.button-header{
+  border-radius: 2rem;
+  padding: 0.05rem 0.5rem 0.05rem 0.5rem;
+  width: auto;
+  height: 1.5rem;
+  margin-top: 0.25rem;
+  border-width: 0.05rem;
+  border-color: rgb(201, 64, 64);
+  background-color: rgb(201, 64, 64);
+  color: white;
+  cursor: pointer;
+}
+
+.h1-style{
+  color: white;
+}
+
+.showUsers{
+  width: 100rem;
+  border:solid;
+  border-color: rgb(75, 10, 98);
+  border-width: 0.3rem;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.users{
+  display: flex;
+  flex-direction: row;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  border: 1rem solid;
+  border-width: 0.2rem;
+  border-color: rgb(75, 10, 98);
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  border-radius: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.delete{
+  border: 1rem solid;
+  border-color: rgb(75, 10, 98);
+  border-width: 0.3rem;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.update{
+  border: 1rem solid;
+  border-color: rgb(75, 10, 98);
+  border-width: 0.3rem;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.user{
+  padding: 0.5rem;
+}
+
+.user-conteiner{
+  border: 1rem solid;
+  border-color: rgb(75, 10, 98);
+  border-width: 0.2rem;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  margin-top: 1rem;
+}
+
+.product-conteiner{
+  border: 1rem solid;
+  border-color: rgb(75, 10, 98);
+  border-width: 0.2rem;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  margin-top: 1rem;
+}
+
+.forn-conteiner{
+  border: 1rem solid;
+  border-color: rgb(75, 10, 98);
+  border-width: 0.2rem;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  margin-top: 1rem;
+}
