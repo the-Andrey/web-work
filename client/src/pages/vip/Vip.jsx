@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 import React, { useState } from "react";
 import Layout from '../Components/Layout';
 import Header from '../Components/Header';
@@ -7,6 +7,11 @@ import { Button } from "primereact/button";
 import { Dropdown } from 'primereact/dropdown';
 
 const Vip = () => {
+
+  const location = useLocation();
+  const { role } = location.state || {};
+
+  console.log("Role:", role)
 
   const [selectedCategory, setSelectedCategory] = useState(null);
 
@@ -53,7 +58,7 @@ const Vip = () => {
   }
 
   const   handleNavigatetoShowForns = () => {
-    navigate('/showforn')
+    navigate('/showforn', {state:{role:role}})
   }
 
   const handleNavigatetoDeleteProd = () => {
@@ -92,7 +97,6 @@ const Vip = () => {
           onChange={(e) => setSelectedCategory(e.value)}
           placeholder="Selecione uma categoria"
         />
-
         {selectedCategory === 'user' && (
                 <div className="user-conteiner">
                   <div>
@@ -141,6 +145,9 @@ const Vip = () => {
                   </div>
                   <div>
                     <Button label="Editar fornecedor" onClick={ handleNavigatetoUpdateForn}/>
+                  </div>
+                  <div>
+                    <Button label="Relatório de fornecedores" onClick={ handleNavigatetoUpdateForn}/>
                   </div>
                 </div>
         )}

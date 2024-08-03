@@ -8,7 +8,7 @@ import { InputText } from "primereact/inputtext";
 
 const Login= () => {
 
-const navItems = [
+  const navItems = [
 
   {
     name: "Home",
@@ -32,7 +32,7 @@ const navItems = [
       if(data.message === "Login bem-sucedido!"){
         const type = data.user.type
         if(type == 1){
-          navigate("/vip")
+          navigate("/vip", {state:{role:1}})
         }else{
           navigate("/common")
         }

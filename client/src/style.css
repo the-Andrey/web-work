@@ -32,13 +32,6 @@ Header .navbar {
   color: white;
 }
 
-.main{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 .App{
   height: 100vh;
   padding: 1rem 2rem 2rem 2rem;
