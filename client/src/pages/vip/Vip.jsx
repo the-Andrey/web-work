@@ -146,9 +146,6 @@ const Vip = () => {
                   <div>
                     <Button label="Editar fornecedor" onClick={ handleNavigatetoUpdateForn}/>
                   </div>
-                  <div>
-                    <Button label="Relatório de fornecedores" onClick={ handleNavigatetoUpdateForn}/>
-                  </div>
                 </div>
         )}
       </div>

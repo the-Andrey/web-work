@@ -20,7 +20,7 @@ const Home = () => {
       <div className='main'>
         <Header navItems={ navItems} />
         <img src={logo} alt="Logotipo" style={{ width: '20rem', height: '20rem' }} />
-        <Button label="Github do projeto" onClick={() => window.open('https://github.com/the-Andrey', '_blank')}/>
+        <Button label="Github do projeto" onClick={() => window.open('https://github.com/the-Andrey/web-work', '_blank')}/>
       </div>
     </Layout>
   )
